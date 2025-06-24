@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "autosuggest"
+version = "0.1.0"
+description = "FastAPI autosuggest app"
+authors = ["samriddha"]
+readme = "README.md"
+package-mode=false
+
+packages = [
+    { include = "app" }
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+fastapi = "^0.95.0"
+uvicorn = "^0.22.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
