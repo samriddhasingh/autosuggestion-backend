@@ -21,8 +21,8 @@ You must have one of the following setups:
 ### Option 1: Run via Docker (Recommended)
 
 - Docker installed
-- type "make build" command to build the image
-- just type "make start" command to start docker 
+- type "**make build**" command to build the image
+- just type "**make start**" command to start docker 
 - 
 ### Option 2: Run Locally (Development)
 - Python 3.12+
